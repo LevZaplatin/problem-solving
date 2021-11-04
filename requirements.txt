@@ -1,1 +1,4 @@
 pytest
+click
+jinja2
+requests
