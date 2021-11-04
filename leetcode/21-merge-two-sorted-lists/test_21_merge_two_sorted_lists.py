@@ -53,10 +53,9 @@ class Solution:
 
             if list_node is None:
                 list_node = next_node
-                cursor = next_node
             else:
                 cursor.next = next_node
-                cursor = next_node
+            cursor = next_node
 
         return list_node
 
